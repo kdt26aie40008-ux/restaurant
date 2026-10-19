@@ -1,0 +1,28 @@
+.admin-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.admin-section { display: flex; flex-direction: column; gap: 16px; }
+.admin-section h2 { font-size: 1.3rem; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; align-items: end; }
+.admin-table { width: 100%; border-collapse: collapse; background: var(--surface); }
+.admin-table th, .admin-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: middle; }
+.admin-table th { font-size: .85rem; color: var(--text-muted); white-space: nowrap; }
+.admin-table .text-input { min-width: 90px; }
+.admin-table .num-input { width: 120px; }
+.check { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 700; cursor: pointer; }
+.check input { width: 24px; height: 24px; }
+.login-card { max-width: 440px; margin: 40px auto; }
+.mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .85rem; word-break: break-all; }
+.result-summary { display: flex; flex-wrap: wrap; gap: 12px; }
+.download-links { display: flex; flex-wrap: wrap; gap: 12px; }
+.steps { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; font-size: .85rem; }
+.steps li { padding: 4px 12px; border-radius: 999px; background: var(--surface-muted); color: var(--text-muted); font-weight: 700; }
+.steps li.is-current { background: var(--primary); color: #fff; }
+.steps li.is-done { background: var(--success-soft); color: var(--success); }
+.code-input { font-size: 1.8rem; letter-spacing: .4em; text-align: center; font-weight: 800; }
+.rules { margin: 0; padding-left: 1.2em; }
+.status-invited, .status-unclaimed { background: var(--warning-soft); color: var(--warning-text); }
+.status-active { background: var(--success-soft); color: var(--success); }
+.status-suspended { background: var(--danger-soft); color: var(--danger); }
+.operator-header { border-bottom: 3px solid #1d4a8f; }
+.operator-header .brand { color: #1d4a8f; }
+
+.history-list { display: flex; flex-direction: column; gap: 12px; }

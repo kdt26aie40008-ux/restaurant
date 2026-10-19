@@ -1,0 +1,8 @@
+product_id,category_name,product_name,price,image_path,is_available,popularity_score,recommendation_tags,description
+P001,フード,ハンバーガー,680,images/products/P001.jpg,1,90,hearty;age_youth;age_adult,ビーフパティのシンプルなバーガー
+P002,フード,チーズバーガー,780,images/products/P002.jpg,1,85,hearty;age_child;age_youth,とろけるチェダーチーズ入り
+P006,サイドメニュー,ポテト,320,images/products/P006.jpg,1,95,age_child;age_youth,揚げたてのフライドポテト
+P011,ドリンク,コーラ,250,images/products/P011.jpg,1,88,age_youth,
+P015,デザート,プリン,380,images/products/P015.jpg,1,80,sweet;light;age_child;age_senior,なめらかな自家製プリン
+P101,フード,"チキン南蛮バーガー",760,,1,60,hearty;sweet,"甘酢だれとタルタル, ボリューム満点"
+P102,ドリンク,メロンソーダ,280,,1,55,sweet;age_child,
