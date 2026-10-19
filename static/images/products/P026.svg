@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#f7e3b6"/>
+  </radialGradient>
+</defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<ellipse cx="200" cy="262" rx="150" ry="18" fill="#000" opacity="0.10"/>
+<ellipse cx="200" cy="200" rx="160" ry="62" fill="#ffffff" stroke="#e6dccf" stroke-width="4"/><ellipse cx="200" cy="196" rx="120" ry="42" fill="#f7f2ea"/><path d="M120 210 q-6 -44 40 -44 q46 0 40 44 q-10 26 -40 26 q-30 0 -40 -26z" fill="#c9792a"/><path d="M134 190 q14 -10 30 -4" stroke="#e8a858" stroke-width="6" fill="none"/><path d="M200 206 q-6 -44 40 -44 q46 0 40 44 q-10 26 -40 26 q-30 0 -40 -26z" fill="#c9792a"/><path d="M214 186 q14 -10 30 -4" stroke="#e8a858" stroke-width="6" fill="none"/><path d="M160 182 q-6 -44 40 -44 q46 0 40 44 q-10 26 -40 26 q-30 0 -40 -26z" fill="#c9792a"/><path d="M174 162 q14 -10 30 -4" stroke="#e8a858" stroke-width="6" fill="none"/><path d="M286 196 l26 -14 l-6 26z" fill="#ffe066"/>
+</svg>
